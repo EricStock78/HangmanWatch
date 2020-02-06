@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99EE6D9B23E8EB70005D12F6 /* HangmanWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 99EE6D9A23E8EB70005D12F6 /* HangmanWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		99EE6DA123E8EB70005D12F6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99EE6D9F23E8EB70005D12F6 /* Interface.storyboard */; };
+		99EE6DA323E8EB72005D12F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EE6DA223E8EB72005D12F6 /* Assets.xcassets */; };
+		99EE6DAA23E8EB72005D12F6 /* HangmanWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 99EE6DA923E8EB72005D12F6 /* HangmanWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		99EE6DAF23E8EB72005D12F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE6DAE23E8EB72005D12F6 /* ContentView.swift */; };
+		99EE6DB123E8EB72005D12F6 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE6DB023E8EB72005D12F6 /* HostingController.swift */; };
+		99EE6DB323E8EB72005D12F6 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE6DB223E8EB72005D12F6 /* ExtensionDelegate.swift */; };
+		99EE6DB523E8EB73005D12F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EE6DB423E8EB73005D12F6 /* Assets.xcassets */; };
+		99EE6DB823E8EB73005D12F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EE6DB723E8EB73005D12F6 /* Preview Assets.xcassets */; };
+		99EE6DC823E8F821005D12F6 /* HangmanGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EE6DC723E8F821005D12F6 /* HangmanGame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99EE6D9C23E8EB70005D12F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99EE6D9023E8EB70005D12F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99EE6D9923E8EB70005D12F6;
+			remoteInfo = "HangmanWatch WatchKit App";
+		};
+		99EE6DAB23E8EB72005D12F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99EE6D9023E8EB70005D12F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99EE6DA823E8EB72005D12F6;
+			remoteInfo = "HangmanWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99EE6DBF23E8EB73005D12F6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				99EE6DAA23E8EB72005D12F6 /* HangmanWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EE6DC323E8EB73005D12F6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				99EE6D9B23E8EB70005D12F6 /* HangmanWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		99EE6D9623E8EB70005D12F6 /* HangmanWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HangmanWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EE6D9A23E8EB70005D12F6 /* HangmanWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HangmanWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EE6DA023E8EB70005D12F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		99EE6DA223E8EB72005D12F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99EE6DA423E8EB72005D12F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99EE6DA923E8EB72005D12F6 /* HangmanWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HangmanWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EE6DAE23E8EB72005D12F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99EE6DB023E8EB72005D12F6 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		99EE6DB223E8EB72005D12F6 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		99EE6DB423E8EB73005D12F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99EE6DB723E8EB73005D12F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99EE6DB923E8EB73005D12F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99EE6DC723E8F821005D12F6 /* HangmanGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanGame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99EE6DA623E8EB72005D12F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99EE6D8F23E8EB70005D12F6 = {
+			isa = PBXGroup;
+			children = (
+				99EE6D9E23E8EB70005D12F6 /* HangmanWatch WatchKit App */,
+				99EE6DAD23E8EB72005D12F6 /* HangmanWatch WatchKit Extension */,
+				99EE6D9723E8EB70005D12F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99EE6D9723E8EB70005D12F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99EE6D9623E8EB70005D12F6 /* HangmanWatch.app */,
+				99EE6D9A23E8EB70005D12F6 /* HangmanWatch WatchKit App.app */,
+				99EE6DA923E8EB72005D12F6 /* HangmanWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99EE6D9E23E8EB70005D12F6 /* HangmanWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				99EE6D9F23E8EB70005D12F6 /* Interface.storyboard */,
+				99EE6DA223E8EB72005D12F6 /* Assets.xcassets */,
+				99EE6DA423E8EB72005D12F6 /* Info.plist */,
+			);
+			path = "HangmanWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		99EE6DAD23E8EB72005D12F6 /* HangmanWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				99EE6DAE23E8EB72005D12F6 /* ContentView.swift */,
+				99EE6DC723E8F821005D12F6 /* HangmanGame.swift */,
+				99EE6DB023E8EB72005D12F6 /* HostingController.swift */,
+				99EE6DB223E8EB72005D12F6 /* ExtensionDelegate.swift */,
+				99EE6DB423E8EB73005D12F6 /* Assets.xcassets */,
+				99EE6DB923E8EB73005D12F6 /* Info.plist */,
+				99EE6DB623E8EB73005D12F6 /* Preview Content */,
+			);
+			path = "HangmanWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		99EE6DB623E8EB73005D12F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				99EE6DB723E8EB73005D12F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99EE6D9523E8EB70005D12F6 /* HangmanWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EE6DC423E8EB73005D12F6 /* Build configuration list for PBXNativeTarget "HangmanWatch" */;
+			buildPhases = (
+				99EE6D9423E8EB70005D12F6 /* Resources */,
+				99EE6DC323E8EB73005D12F6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99EE6D9D23E8EB70005D12F6 /* PBXTargetDependency */,
+			);
+			name = HangmanWatch;
+			productName = HangmanWatch;
+			productReference = 99EE6D9623E8EB70005D12F6 /* HangmanWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		99EE6D9923E8EB70005D12F6 /* HangmanWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EE6DC023E8EB73005D12F6 /* Build configuration list for PBXNativeTarget "HangmanWatch WatchKit App" */;
+			buildPhases = (
+				99EE6D9823E8EB70005D12F6 /* Resources */,
+				99EE6DBF23E8EB73005D12F6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99EE6DAC23E8EB72005D12F6 /* PBXTargetDependency */,
+			);
+			name = "HangmanWatch WatchKit App";
+			productName = "HangmanWatch WatchKit App";
+			productReference = 99EE6D9A23E8EB70005D12F6 /* HangmanWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		99EE6DA823E8EB72005D12F6 /* HangmanWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EE6DBC23E8EB73005D12F6 /* Build configuration list for PBXNativeTarget "HangmanWatch WatchKit Extension" */;
+			buildPhases = (
+				99EE6DA523E8EB72005D12F6 /* Sources */,
+				99EE6DA623E8EB72005D12F6 /* Frameworks */,
+				99EE6DA723E8EB72005D12F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HangmanWatch WatchKit Extension";
+			productName = "HangmanWatch WatchKit Extension";
+			productReference = 99EE6DA923E8EB72005D12F6 /* HangmanWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99EE6D9023E8EB70005D12F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Eric;
+				TargetAttributes = {
+					99EE6D9523E8EB70005D12F6 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					99EE6D9923E8EB70005D12F6 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					99EE6DA823E8EB72005D12F6 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 99EE6D9323E8EB70005D12F6 /* Build configuration list for PBXProject "HangmanWatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99EE6D8F23E8EB70005D12F6;
+			productRefGroup = 99EE6D9723E8EB70005D12F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99EE6D9523E8EB70005D12F6 /* HangmanWatch */,
+				99EE6D9923E8EB70005D12F6 /* HangmanWatch WatchKit App */,
+				99EE6DA823E8EB72005D12F6 /* HangmanWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99EE6D9423E8EB70005D12F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EE6D9823E8EB70005D12F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EE6DA323E8EB72005D12F6 /* Assets.xcassets in Resources */,
+				99EE6DA123E8EB70005D12F6 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99EE6DA723E8EB72005D12F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EE6DB823E8EB73005D12F6 /* Preview Assets.xcassets in Resources */,
+				99EE6DB523E8EB73005D12F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99EE6DA523E8EB72005D12F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EE6DC823E8F821005D12F6 /* HangmanGame.swift in Sources */,
+				99EE6DB123E8EB72005D12F6 /* HostingController.swift in Sources */,
+				99EE6DAF23E8EB72005D12F6 /* ContentView.swift in Sources */,
+				99EE6DB323E8EB72005D12F6 /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99EE6D9D23E8EB70005D12F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99EE6D9923E8EB70005D12F6 /* HangmanWatch WatchKit App */;
+			targetProxy = 99EE6D9C23E8EB70005D12F6 /* PBXContainerItemProxy */;
+		};
+		99EE6DAC23E8EB72005D12F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99EE6DA823E8EB72005D12F6 /* HangmanWatch WatchKit Extension */;
+			targetProxy = 99EE6DAB23E8EB72005D12F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99EE6D9F23E8EB70005D12F6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99EE6DA023E8EB70005D12F6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99EE6DBA23E8EB73005D12F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99EE6DBB23E8EB73005D12F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99EE6DBD23E8EB73005D12F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HangmanWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 43HX3VR5E8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HangmanWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Example.HangmanWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		99EE6DBE23E8EB73005D12F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HangmanWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 43HX3VR5E8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HangmanWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Example.HangmanWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		99EE6DC123E8EB73005D12F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43HX3VR5E8;
+				IBSC_MODULE = HangmanWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "HangmanWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Example.HangmanWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		99EE6DC223E8EB73005D12F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43HX3VR5E8;
+				IBSC_MODULE = HangmanWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "HangmanWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Example.HangmanWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		99EE6DC523E8EB73005D12F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43HX3VR5E8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Example.HangmanWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		99EE6DC623E8EB73005D12F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43HX3VR5E8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Example.HangmanWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99EE6D9323E8EB70005D12F6 /* Build configuration list for PBXProject "HangmanWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EE6DBA23E8EB73005D12F6 /* Debug */,
+				99EE6DBB23E8EB73005D12F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EE6DBC23E8EB73005D12F6 /* Build configuration list for PBXNativeTarget "HangmanWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EE6DBD23E8EB73005D12F6 /* Debug */,
+				99EE6DBE23E8EB73005D12F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EE6DC023E8EB73005D12F6 /* Build configuration list for PBXNativeTarget "HangmanWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EE6DC123E8EB73005D12F6 /* Debug */,
+				99EE6DC223E8EB73005D12F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EE6DC423E8EB73005D12F6 /* Build configuration list for PBXNativeTarget "HangmanWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EE6DC523E8EB73005D12F6 /* Debug */,
+				99EE6DC623E8EB73005D12F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99EE6D9023E8EB70005D12F6 /* Project object */;
+}
